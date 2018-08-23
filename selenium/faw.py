@@ -16,14 +16,13 @@ class Faw(unittest.TestCase):
         self.base_url = "https://www.katalon.com/"
         self.verificationErrors = []
         self.accept_next_alert = True
-
     def test_faw(self):
+        # u"""首页"""
         driver = self.driver
-        u'''首页'''
         driver.get("https://mall.faw-vw.com/views/index.html")
-        u'''定制车'''
+        # u"""定制车"""
         driver.find_element_by_link_text(u"定制车").click()
-        u'''新车'''
+        # u"""新车"""
         driver.find_element_by_link_text(u"买新车").click()
         driver.find_element_by_link_text(u"二手车").click()
         driver.find_element_by_link_text(u"优选车品").click()
@@ -43,6 +42,31 @@ class Faw(unittest.TestCase):
                 u"(.//*[normalize-space(text()) and normalize-space(.)='经销商'])[1]/following::div[2]").click()
              driver.find_element_by_xpath(
                  u"(.//*[normalize-space(text()) and normalize-space(.)='经销商'])[1]/following::input[1]").clear()
+    def test_login(self):
+        # u"""登录"""
+        driver = self.driver
+        driver.get("https://mall.faw-vw.com/views/index.html")
+        driver.find_element_by_link_text(u"登录").click()
+        driver.find_element_by_xpath(
+            u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[1]").click()
+        driver.find_element_by_xpath(
+            u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[1]").clear()
+        driver.find_element_by_xpath(
+            u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[1]").send_keys(
+            "13601374209")
+        driver.find_element_by_xpath(
+            u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[2]").clear()
+        driver.find_element_by_xpath(
+            u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[2]").send_keys(
+            "test123")
+        driver.find_element_by_xpath(
+            u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[3]").click()
+        if driver.find_element_by_class_name('uname').get_attribute('lable txt') =="136****4209":
+            print "登录成功"
+        else:
+            print "登录失败"
+
+
 
     def is_element_present(self, how, what):
         try:
