@@ -1,18 +1,18 @@
-1535006046803	geckodriver	INFO	geckodriver 0.19.1
-1535006046824	geckodriver	INFO	Listening on 127.0.0.1:9433
-1535006049893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\HOUJIN~1\\AppData\\Local\\Temp\\rust_mozprofile.Lhm8Q9BtnfP6"
+1535018068112	geckodriver	INFO	geckodriver 0.19.1
+1535018068126	geckodriver	INFO	Listening on 127.0.0.1:32754
+1535018071241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\HOUJIN~1\\AppData\\Local\\Temp\\rust_mozprofile.3ezOEjpEwPVH"
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-1535006054220	Marionette	INFO	Listening on port 9450
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-1535006055242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1535018075189	Marionette	INFO	Listening on port 32770
+1535018075414	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://mall.faw-vw.com/views/index.js?1534604471548, line 48: TypeError: t.data[0] is undefined
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
+[Parent 21564, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement

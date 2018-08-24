@@ -61,7 +61,7 @@ class Faw(unittest.TestCase):
             "test123")
         driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[3]").click()
-        if driver.find_element_by_class_name('uname').get_attribute('lable txt') =="136****4209":
+        if driver.find_element_by_class_name('uname').text =="136****4209":
             print "登录成功"
         else:
             print "登录失败"
