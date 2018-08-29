@@ -17,7 +17,6 @@ class Faw(unittest.TestCase):
         self.verificationErrors = []
         self.accept_next_alert = True
     def test_faw(self):
-        # u"""首页"""
         driver = self.driver
         driver.get("https://mall.faw-vw.com/views/index.html")
         # u"""定制车"""
@@ -59,12 +58,14 @@ class Faw(unittest.TestCase):
         driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[2]").send_keys(
             "test123")
-        driver.find_element_by_xpath(
+        url=driver.find_element_by_xpath(
             u"(.//*[normalize-space(text()) and normalize-space(.)='快捷登录'])[1]/following::input[3]").click()
-        if driver.find_element_by_class_name('uname').text =="136****4209":
-            print "登录成功"
-        else:
-            print "登录失败"
+        # print driver.find_element_by_xpath(
+        #     u"(.//*[normalize-space(text()) and normalize-space(.)='注册'])[1]/following::span[1].").text()
+        a=driver.find_element_by_class_name("fnList").text
+        print a
+        self.assertIn(u"我的订单",a,msg="登录失败")
+
 
 
 

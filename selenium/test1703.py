@@ -11,11 +11,11 @@ def bubble_sort(list):
     for i in range(0,count):
         for j in range(i+1,count):
             if list[i]>list[j]:
-                tmp=list[i]
-                list[i]=list[j]
-                list[j]=tmp
-                # list[i],list[j]=list[j],list[i]
-        print i
+                # tmp=list[i]
+                # list[i]=list[j]
+                # list[j]=tmp
+                list[i],list[j]=list[j],list[i]
+        print "第 %d 次" % (i)
         print list
 
     return list
