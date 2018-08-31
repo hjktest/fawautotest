@@ -15,6 +15,6 @@ teams=["Packers", "49ers", "Ravens", "Patriots"]
 for index,team in enumerate(teams):
     print index,team
 #查找所有的组合
-teams=["bananas","orange","pair"]
-for fruit in combinations(teams,2):
+teams=["bananas","orange","pair","apple","greentea"]
+for fruit in combinations(teams,3):
     print fruit
