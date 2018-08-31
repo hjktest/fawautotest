@@ -27,7 +27,7 @@ class DemoClass1:
 # obj.classPrint()
 # DemoClass3.classPrint()
 obj=DemoClass1()
-#通过类条用函数
+#通过类调用函数
 DemoClass1.classPrint(obj)
 #通过实例调用函数
 obj.classPrint()
