@@ -21,10 +21,14 @@ class demoTest(unittest.TestCase):
         self.assertTrue(4+5==9, "assertion fails")
 
     def test5(self):
-        self.assertIn(3,[1,2,3])
+        self.assertIn(3,[1,2,3],msg='不包含')
 
     def test6(self):
         self.assertNotIn(11,range(5))
+    def test7(self):
+        self.assertGreater(7,6,msg="真的大于")
+    def test8(self):
+        self.assertTrue()
 
 if __name__=="__main__":
     unittest.main()
