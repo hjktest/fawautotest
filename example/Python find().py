@@ -30,3 +30,13 @@ str = "     this is string example....wow!!!     ";
 print str.lstrip();
 str = "88888888this is string example....wow!!!8888888";
 print str.lstrip('8');
+#rstrip删除右侧的空格
+str = "     this is string example....wow!!!     ";
+print str.rstrip();
+str = "88888888this is string example....wow!!!8888888";
+print str.rstrip('8');
+#返回分割的字符串
+
+str = "Line1-abcdef \nLine2-abc \nLine4-abcd";
+print str.split( );
+print str.split(' ', 1 );
