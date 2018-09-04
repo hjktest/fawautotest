@@ -52,3 +52,7 @@ print str.swapcase();
 
 str = "THIS IS STRING EXAMPLE....WOW!!!";
 print str.swapcase();
+#变字母变成大写
+str = "this is string example....wow!!!";
+
+print "str.upper() : ", str.upper()
