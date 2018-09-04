@@ -40,3 +40,15 @@ print str.rstrip('8');
 str = "Line1-abcdef \nLine2-abc \nLine4-abcd";
 print str.split( );
 print str.split(' ', 1 );
+#删除字符串的字符
+str = "00000003210Runoob01230000000";
+print str.strip('0');  # 去除首尾字符 0
+
+str2 = "   Runoob      ";  # 去除首尾空格
+print str2.strip();
+#返回大小写字母转换后生成的新字符串。
+str = "this is string example....wow!!!";
+print str.swapcase();
+
+str = "THIS IS STRING EXAMPLE....WOW!!!";
+print str.swapcase();
