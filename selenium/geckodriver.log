@@ -1,24 +1,23 @@
-1535526211715	geckodriver	INFO	geckodriver 0.19.1
-1535526211727	geckodriver	INFO	Listening on 127.0.0.1:30415
-1535526214840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\HOUJIN~1\\AppData\\Local\\Temp\\rust_mozprofile.BaFsGBB7JGY3"
+1535704334299	geckodriver	INFO	geckodriver 0.19.1
+1535704334317	geckodriver	INFO	Listening on 127.0.0.1:5000
+1535704337411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\HOUJIN~1\\AppData\\Local\\Temp\\rust_mozprofile.bPBG0W7bUVE3"
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-1535526218297	Marionette	INFO	Listening on port 30430
+1535704341901	Marionette	INFO	Listening on port 5011
 Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-1535526218523	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-[Parent 18612, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-arning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 69: unreachable code after return statement
-[GFX1-]: Receive[GFX1-]: Receive I IPC close with reason=AbnormalShutdown
-PC close with reason=AbnormalShutdown
-_channel_win.cc, line 346
+1535704342733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
+[Parent 2552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
 
 d] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 

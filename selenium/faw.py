@@ -12,8 +12,9 @@ import HTMLTestRunner
 class Faw(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
+        # self.driver=webdriver.Chrome()
         self.driver.implicitly_wait(30)
-        self.base_url = "https://www.katalon.com/"
+        # self.base_url = "https://www.katalon.com/"
         self.verificationErrors = []
         self.accept_next_alert = True
     def test_faw(self):
