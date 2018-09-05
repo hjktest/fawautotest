@@ -6,7 +6,7 @@
 import re
 print(re.match('www','www.runnoob.com').span())
 print(re.match('com','www.runnoob.com'))
-#
+#re.match只匹配字符串的开始，如果字符串开始不符合正则表达式，则匹配失败，函数返回None；
 line = "Cats are smarter than dogs"
 
 matchObj = re.match(r'(.*) are (.*?) .*', line, re.M | re.I)
