@@ -24,3 +24,28 @@ print dict1
 print dict2
 print dict3
 #Python 字典 fromkeys() 函数用于创建一个新字典，以序列 seq 中元素做字典的键，value 为字典所有键对应的初始值。
+seq=('google','Runoob','Taobao')
+dict=dict.fromkeys(seq)
+print "新字典:%s" % str(dict)
+dict=dict.fromkeys(seq,10)
+print "新字典:%s" % str(dict)
+#遍历字典元素
+dict={'Google': 'www.google.com', 'Runoob': 'www.runoob.com', 'taobao': 'www.taobao.com'}
+print "字典值：%s" % dict.items()
+#遍历字典列表
+for key,values in dict.items():
+    print key,values
+# 返回key,values值
+dict = {'Name': 'Zara', 'Age': 7}
+print "key : %s" % dict.keys()
+print "values: %s" % dict.values()
+#Python 字典 pop() 方法删除字典给定键 key 及对应的值，返回值为被删除的值。key 值必须给出。 否则，返回 default 值。
+site= {'name': '菜鸟教程', 'alexa': 10000, 'url': 'www.runoob.com'}
+pop_obj=site.pop('name')
+print pop_obj
+print site
+#popitem Python 字典 popitem() 方法随机返回并删除字典中的一对键和值。
+site= {'name': '菜鸟教程', 'alexa': 10000, 'url': 'www.runoob.com'}
+pop_obj=site.popitem()
+print(pop_obj)
+print(site)
