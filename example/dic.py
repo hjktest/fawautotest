@@ -23,3 +23,4 @@ dict1['num'].remove(3)
 print dict1
 print dict2
 print dict3
+#Python 字典 fromkeys() 函数用于创建一个新字典，以序列 seq 中元素做字典的键，value 为字典所有键对应的初始值。
