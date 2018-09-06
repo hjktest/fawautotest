@@ -11,4 +11,4 @@ print "Length:",len(df)  #长度
 
 print "Column Headers",df.columns #得到每列的标题
 print "Data type",df.dtypes   #得到每列数据的类型
-print "Index:",df.index#索引
+print "Index:",df.index #索引
