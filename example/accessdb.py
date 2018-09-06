@@ -11,7 +11,6 @@ with sqlite3.connect(":memory:") as con:
     data_loader = sm.datasets.sunspots.load_pandas()  # 加载数据
     df = data_loader.data
     rows = [tuple(x) for x in df.values]
-
     con.execute("CREATE TABLE SUNSPOTS(year,sunactivity)")
     con.executemany("INSERT INTO sunspots(year,sunactivity) VALUES(?,?)", rows)  # 执行多次SQL语句
     c.execute("SELECT COUNT(*) FROM sunspots")  # 统计数据表中元组数
