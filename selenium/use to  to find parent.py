@@ -5,7 +5,7 @@
 # software: PyCharm
 from selenium import webdriver
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.get('C:\\Users\\houjinkai\\PycharmProjects\\untitled\\selenium\\test1.html')
 
 # 1.xpath: `.`代表当前节点; '..'代表父节点
