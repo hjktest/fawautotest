@@ -1,32 +1,26 @@
-1535704334299	geckodriver	INFO	geckodriver 0.19.1
-1535704334317	geckodriver	INFO	Listening on 127.0.0.1:5000
-1535704337411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\HOUJIN~1\\AppData\\Local\\Temp\\rust_mozprofile.bPBG0W7bUVE3"
-Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-1535704341901	Marionette	INFO	Listening on port 5011
-Unable to read VR Path Registry from C:\Users\houjinkai\AppData\Local\openvr\openvrpaths.vrpath
-1535704342733	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-121362177-1, line 71: unreachable code after return statement
-[Parent 2552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540545777833	geckodriver	INFO	geckodriver 0.19.1
+1540545777845	geckodriver	INFO	Listening on 127.0.0.1:22275
+1540545780935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\HOUJIN~1\\AppData\\Local\\Temp\\rust_mozprofile.kvxrIcCE41Hp"
+1540545785465	Marionette	INFO	Listening on port 22283
+1540545786227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540545786267	Marionette	DEBUG	[6442450945] Frame script loaded
+1540545786268	Marionette	DEBUG	[6442450945] Frame script registered
+1540545786293	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540545786300	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 449: TypeError: docShell.failedChannel is null
+[Child 23012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 3461540545824201	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+[Child 26564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 265[Child 22672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 221540545826382	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1540545826382	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1540545826382	addons.xpi	ERROR	Failed to download system add-on gmp-widevinecdm: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1540545826383	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1540545826384	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1540545826384	addons.xpi	ERROR	Failed to download system add-on gmp-gmpopenh264: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1540545826385	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+[Parent 24444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2511540545826555	Marionette	INFO	Stopped listening on port 21866
 
-
-d] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-
-
-Child 24336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-ild/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 12092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-uild/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 35528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[GPU 30732, C
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
